@@ -1,47 +1,17 @@
-# ------------------------------------------------------------------------------ #
-# Java defaults (https://github.com/github/gitignore/blob/master/Java.gitignore) #
-# ------------------------------------------------------------------------------ #
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# ------------------------------------------------------------------------------------------- #
-# Eclipse-specific (https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore) #
-# ------------------------------------------------------------------------------------------- #
-*.pydevproject
-.metadata
-bin/**
-tmp/**
-tmp/**/*
+# Archivos y carpetas comunes a ignorar
+*.log
 *.tmp
-*.bak
 *.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.project
-.classpath
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# CDT-specific
-.cproject
-
-# PDT-specific
-.buildpath
-
-# --------------- #
-# Studio-specific #
-# --------------- #
+ 
+# Carpetas de dependencias y build
+node_modules/
+dist/
+build/
 target/
-.mule/
+ 
+# Archivos del sistema
 .DS_Store
-velocity.log
+Thumbs.db
+ 
+# Archivos de entorno
+.env
