@@ -9,8 +9,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - 
-                name: Clean Maven Cache
-                run: rm -rf ~/.m2/repository/org/mule
+                name: Clean Maven Cache for Mule artifacts
+                run: rm -rf ~/.m2/repository/com/mulesoft/modules ~/.m2/repository/org/mule/modules
             -
                 name: Checkout this repo
                 uses: actions/checkout@v4
