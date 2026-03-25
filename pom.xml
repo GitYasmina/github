@@ -95,7 +95,7 @@
 		<dependency>
   <groupId>org.mule.modules</groupId>
   <artifactId>mule-module-apikit</artifactId>
-  <version>4.11.0</version>
+  <version>1.11.0</version>
   <scope>provided</scope>
 </dependency>
 	</dependencies>
