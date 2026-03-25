@@ -6,7 +6,7 @@
 
 	<groupId>96feec65-ff0f-41cf-8755-9197aa1f1951</groupId>
 	<artifactId>github</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.3</version>
 	<packaging>mule-application</packaging>
 
 	<name>github</name>
