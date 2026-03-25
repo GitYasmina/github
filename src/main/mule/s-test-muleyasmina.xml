@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<mule 
+<mule
     xmlns:secure-properties="http://www.mulesoft.org/schema/mule/secure-properties"
     xmlns="http://www.mulesoft.org/schema/mule/core"
     xmlns:apikit="http://www.mulesoft.org/schema/mule/mule-apikit"
@@ -17,8 +17,8 @@
         http://www.mulesoft.org/schema/mule/mule-apikit/current/mule-apikit.xsd
         http://www.mulesoft.org/schema/mule/ee/core 
         http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
-        http://www.mulesoft.org/schema/mule/secure-properties 
-        http://www.mulesoft.org/schema/mule/secure-properties/1.2/mule-secure-properties.xsd">
+        http://www.mulesoft.org/schema/mule/secure-properties
+        http://www.mulesoft.org/schema/mule/secure-properties/mule-secure-properties.xsd">
 
     <!-- Listener config FIXED -->
     <http:listener-config name="s-test-muleyasmina-httpListenerConfig">
